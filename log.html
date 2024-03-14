@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>
+ftbench log.html
+</title>
+<style>
+.bg {background-color: rgb(150, 212, 212);}	table {
+	border-collapse: separate;
+	border-spacing: 10px 0;
+	}
+	th, td {
+	padding: 10px;
+border-bottom: 1px solid #DDD;}
+</style>
+</head>
+<body>
+<h1>
+ftbench results for font `d:\Regius-COLR.ttf'
+</h1>
+<table>
+<tr>
+<td class='bg'>family</td><td>Regius COLR</td>
+</tr>
+<tr>
+<td class='bg'>style</td><td>COLR</td>
+</tr>
+<tr>
+<td class='bg'>driver</td><td>truetype v40</td>
+</tr>
+<tr>
+<td class='bg'>target</td><td>normal</td>
+</tr>
+<tr>
+<td class='bg'>flags</td><td>0x0</td>
+</tr>
+<tr>
+<td class='bg'>cmap</td><td>2</td>
+</tr>
+<tr>
+<td class='bg'>glyphs</td><td>206</td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+<td class='bg'>font preloading into memory</td><td>mapped</td>
+</tr>
+<tr>
+<td class='bg'>maximum cache size</td><td>1024 KiByte</td>
+</tr>
+</table>
+<br>
+<table>
+<tr><th colspan='2' style='text-align: left;'>testing glyph indices from 0 to 205 at 10 ppem</th></tr>
+<tr>
+<td class='bg'>number of seconds for each test</td><td>2</td>
+</tr>
+</table>
+<br>
+<table>
+<tr><th colspan='3' style='text-align: left;'>executing tests:</th></tr>
+<tr>
+<td class='bg' style='text-align: left;'>Load</td>
+<td style='text-align: right;'>11.002 us/op</td>
+<td style='text-align: right;'>    181898 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>Load_Advances (Normal)</td>
+<td style='text-align: right;'>11.877 us/op</td>
+<td style='text-align: right;'>    168302 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>Load_Advances (Fast)</td>
+<td style='text-align: right;'>0.018 us/op</td>
+<td style='text-align: right;'>  98636302 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>Load_Advances (Unscaled)</td>
+<td style='text-align: right;'>0.016 us/op</td>
+<td style='text-align: right;'> 107192924 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>Render</td>
+<td style='text-align: right;'>3.911 us/op</td>
+<td style='text-align: right;'>    150792 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>Get_Glyph</td>
+<td style='text-align: right;'>0.922 us/op</td>
+<td style='text-align: right;'>    174894 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>Get_Char_Index</td>
+<td style='text-align: right;'>0.019 us/op</td>
+<td style='text-align: right;'> 100485203 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>Iterate CMap</td>
+<td style='text-align: right;'>2.632 us/op</td>
+<td style='text-align: right;'>    733466 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>New_Face</td>
+<td style='text-align: right;'>47.113 us/op</td>
+<td style='text-align: right;'>     42310 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>Embolden</td>
+<td style='text-align: right;'>5.175 us/op</td>
+<td style='text-align: right;'>    132870 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>Stroke</td>
+<td style='text-align: right;'>53.137 us/op</td>
+<td style='text-align: right;'>     30900 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>Get_BBox</td>
+<td style='text-align: right;'>0.716 us/op</td>
+<td style='text-align: right;'>    833888 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>Get_CBox</td>
+<td style='text-align: right;'>0.184 us/op</td>
+<td style='text-align: right;'>    171598 done</td>
+</tr>
+<tr>
+<td class='bg' style='text-align: left;'>New_Face & load glyph(s)</td>
+<td style='text-align: right;'>1.152 us/op</td>
+<td style='text-align: right;'>   1734932 done</td>
+</tr>
+</table>
+</body>
+</html>
